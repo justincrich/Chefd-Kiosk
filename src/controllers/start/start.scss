@@ -1,0 +1,71 @@
+@import "~styles/_colors.scss";
+@import "~styles/_breakpoints.scss";
+@import "~styles/_typography.scss";
+@import "~include-media/dist/_include-media.scss";
+%flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.kiosk_start_body {
+  display: grid;
+  grid-template-areas: "foodie" "trivia"; // justify-items: center;
+  @include media($midBP) {
+    grid-template-areas: "foodie trivia";
+    grid-column-gap: 60px;
+  }
+  .start_quiz {
+    @extend %flex;
+    max-width: 250px;
+    flex-direction: column;
+    align-items: center;
+    font-family: $Verlag;
+    color: lighten($textColorMain, 15%);
+    padding: 40px 0;
+    &.foodie_quiz {
+      grid-area: foodie;
+    }
+    &.food_trivia {
+      grid-area: trivia;
+    }
+    .start_quiz_description {
+      height: 151px;
+      .start_quiz_description_headline {
+        @extend %headerMedium;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0 20px;
+        height: 40px;
+        @include media($midBP) {
+        }
+      }
+      .start_quiz_description_paragraph {
+        @extend %paragraphSlim;
+        margin: 20px 0;
+        text-align: center;
+      }
+    }
+    .start_quiz_description_img {
+      width: 250px;
+      height: 250px;
+      @extend %flex;
+      img {
+        width: 100%;
+      }
+    }
+    .img_grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .start_quiz_description_button {
+      margin-top: 50px;
+    }
+    .start_quiz_description_questioncount {
+      margin-top: 20px;
+      @extend %subtitle;
+    }
+  }
+}

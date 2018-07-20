@@ -1,0 +1,30 @@
+@import '../../../../styles/colors';
+@import '../../../../styles/typography';
+
+input.input_text_standard{
+    width: 287px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: $inputTextBackgroundColor;
+    border: solid 1px $inputTextBorderColor;
+    outline:none;
+    display:flex;
+    padding:16px 21px;
+    font-size: $inputSizeStandard;
+
+    &::placeholder{
+        font-family: $inputFamily;
+        font-size: $inputSizeStandard;
+        color:$fontInactive;
+        font-weight: $inputWeight;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    &.error{
+        border-color: red!important;
+    }
+}

@@ -1,0 +1,47 @@
+@import '~styles/_colors.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_typography.scss';
+@import '~include-media/dist/_include-media.scss';
+%flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.kiosk_header_banner{
+    @extend %flex;
+    width:calc(100%);
+    box-sizing: border-box;
+    padding: 0 20px;
+    @include media($midBP){
+        padding:0 48px;
+    }
+    .kiosk_header_banner_logo{
+        @extend %flex;
+        border-right:2px solid white;
+        max-width:100px;
+        padding-right:5px;
+         @include media($midBP){
+            max-width:226px;
+            padding-right:20px;
+        }
+
+        
+        
+    }
+    .kiosk_header_banner_slogan{
+        @extend %flex;
+        max-width:200px;
+        padding-left:5px;
+        @include media($midBP){
+            max-width:401px;
+            padding-left:20px;
+        }
+
+    }
+
+    img{
+        width:100%;
+    }
+}

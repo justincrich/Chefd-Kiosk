@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Check 1`] = `
+<button
+  className="button_standard"
+  disabled={false}
+  outlined={false}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": "50%",
+      "boxShadow": "0px 3px 8px 0 rgba(0, 0, 0, 0.17)",
+      "height": "61px",
+      "width": "61px",
+    }
+  }
+>
+  <span
+    className="button_standard_font"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-check button_check_contents"
+    />
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Standard 1`] = `
+<button
+  className="button_standard"
+  disabled={false}
+  outlined={false}
+>
+  <span
+    className="button_standard_font"
+  >
+    Continue
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Standard Outlined 1`] = `
+<a
+  className="button_outlined"
+  outlined={true}
+>
+  <span
+    className="button_outlined_font"
+  >
+    Quit
+  </span>
+</a>
+`;
+
+exports[`Storyshots Inputs Checkbox Standard 1`] = `null`;
+
+exports[`Storyshots Inputs Standard 1`] = `
+<input
+  autoComplete="on"
+  autoFocus={false}
+  className="input_text_standard undefined"
+  disabled={false}
+  hidden={false}
+  onBlur={undefined}
+  onChange={[Function]}
+  onClick={undefined}
+  onCopy={undefined}
+  onCut={undefined}
+  onInput={undefined}
+  onKeyDown={undefined}
+  onKeyPress={undefined}
+  onKeyUp={undefined}
+  onMouseDown={undefined}
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  onMouseUp={undefined}
+  onPaste={undefined}
+  onSubmit={undefined}
+  placeholder="Email"
+  type="text"
+  value=""
+/>
+`;

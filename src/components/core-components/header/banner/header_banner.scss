@@ -1,0 +1,65 @@
+@import '~include-media/dist/_include-media.scss';
+@import '~styles/_colors.scss';
+@import '~styles/_breakpoints.scss';
+%flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header_banner{
+    position:relative;
+    display:flex;
+    align-items: center;
+    max-height:116px;
+    overflow-y: hidden;
+    width:100vw;
+    @include media($midBP){
+        max-height:282px;
+    }
+
+    .header_banner_img{
+        width:100%;
+    }
+
+    .header_banner_banner_container{
+        position: absolute;
+        z-index: 100;
+       height:100%;
+       width:100%;
+        @include media($midBP){
+            height:116px;
+        }
+        .header_banner_banner_container_wrapper{
+            position:relative;
+            width:100%;
+            height:100%;
+            .header_banner_contents{
+                width:100vw;
+                height:100%;
+                position: absolute;
+                display:flex;
+                flex:1;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                
+                color:$white;
+                z-index: 150;
+    
+                @include media($midBP){
+                    height:116px;
+                }
+            }
+            .header_banner_background{
+                
+                opacity:.6;
+                width:100%;
+                height:100%; 
+                z-index: 120;
+            }
+        }
+
+    }
+}
+

@@ -1,0 +1,210 @@
+{
+  "engagement": {
+    "title": "Food Trivia",
+    "description": "Test Your Skills. How Much Do You Really Know About Food?",
+    "type": "trivia",
+    "assetId": "foodtrivia",
+    "questions": [
+      {
+        "id": "q-1",
+        "questionText": "What is the origin of this dish?",
+        "questionImg": "q-1primarypic.png",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "France",
+            "correct": true,
+            "img": {
+              "1x": "q-1france.png"
+            }
+          },
+          {
+            "id": "r-2",
+            "title": "Italy",
+            "correct": false,
+            "img": {
+              "1x": "q-1italy.png"
+            }
+          },
+          {
+            "id": "r-3",
+            "title": "Germany",
+            "correct": false,
+            "img": {
+              "1x": "q-1germany.png"
+            }
+          },
+          {
+            "id": "r-4",
+            "title": "Spain",
+            "correct": false,
+            "img": {
+              "1x": "q-1spain.png"
+            }
+          }
+        ]
+      },
+      {
+        "id": "q-2",
+        "questionText": "Which is the correct spelling of this classic Italian dish?",
+        "questionImg": "q-2primarypic.png",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "Fettucine",
+            "correct": false,
+            "img": null
+          },
+          {
+            "id": "r-2",
+            "title": "Fettucchine",
+            "correct": false,
+            "img": null
+          },
+          {
+            "id": "r-3",
+            "title": "Fettuccine",
+            "correct": true,
+            "img": null
+          },
+          {
+            "id": "r-4",
+            "title": "Fettiucci",
+            "correct": false,
+            "img": null
+          }
+        ]
+      },
+      {
+        "id": "q-3",
+        "questionText": "What is the name of this superfood?",
+        "questionImg": "q-3primarypic.png",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "Millet",
+            "correct": false,
+            "img": null
+          },
+          {
+            "id": "r-2",
+            "title": "Quinoa",
+            "correct": true,
+            "img": null
+          },
+          {
+            "id": "r-3",
+            "title": "Hemp Seeds",
+            "correct": true,
+            "img": null
+          },
+          {
+            "id": "r-4",
+            "title": "Amaranth",
+            "correct": false,
+            "img": null
+          }
+        ]
+      }
+    ]
+  },
+  "results":[
+    {
+      "title":"You tried.",
+      "score":0,
+      "description":"You don’t know that much about food, but it’s never too late to learn! Here’s a few of our most popular dishes that will teach you the in’s and out’s of basic cooking skills, plus they taste delicious!",
+      "recommendations":[
+        {
+          "title":"Pizza Margherita",
+          "imageName":"pizza2.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/pizza-margherita-with-arugula-salad"
+        },
+        {
+          "title":"Herb Crusted Flank Steak",
+          "imageName":"pepper_and_herb_crusted_flank_steak.png",
+          "avaliability":"instore"
+        },
+        {
+          "title":"Carne Asada Tacos",
+          "imageName":"tacos.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/carne-asada-tacos"
+        }
+      ]
+    },
+    {
+      "title":"Well, you know a little…",
+      "score":1,
+      "description":"You got one right, but that doesn’t mean you’re a chump. Learn more about food by cooking up a delicious dinner tonight with Chef’d. Try one of these delicious recipes!",
+      "recommendations":[
+        {
+          "title":"Shrimp and Grits",
+          "imageName":"shrimpgrits.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/shrimp-and-asparagus-with-parmesan-grits"
+        },
+        {
+          "title":"Weeknight Chicken Pad Thai",
+          "imageName":"padthai.png",
+          "avaliability":"instore"
+        },
+        {
+          "title":"Caramelized Onion and Fig Pizza",
+          "imageName":"pizza.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/caramelized-onion-and-fig-pizza"
+        }
+      ]
+    },
+    {
+      "title":"You know your stuff!",
+      "score":2,
+      "description":"You’re a foodie at heart. You appreciate a good meal and you’re not afraid to make it yourself. Here’s a few recipes that you’ll love to cook for yourself or for guests tonight!",
+      "recommendations":[
+        {
+          "title":"Fish Tacos",
+          "imageName":"tacos2.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/fish-tacos-with-chipotle-crema-sauted-corn-and-cherry-tomatoes"
+        },
+        {
+          "title":"20 Cloves Garlic Chicken",
+          "imageName":"garlicchicken.png",
+          "avaliability":"instore"
+        },
+        {
+          "title":"Grilled New York Steak & Jumbo Pancetta Shrimp",
+          "imageName":"steadshrimp.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/grilled-new-york-steak-jumbo-pancetta-shrimp-with-roasted-smashed-potatoes-broccolini-and-bacon-jam"
+        }
+      ]
+    },
+    {
+      "title":"You’re a pro!",
+      "score":3,
+      "description":"You’re an expert chef! Put your skills to the test with one of our most challenging meal kits tonight!",
+
+      "recommendations":[
+        {
+          "title":"Fast Pot Stickers with Cucumber Salad",
+          "imageName":"potstickers.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/fast-pot-stickers-with-cucumber-salad"
+        },
+        {
+          "title":"Pan Fried Pork Udon",
+          "imageName":"udon.png",
+          "avaliability":"instore"
+        },
+        {
+          "title":"Spanish Paella and Clams with Pork Chorizo and Shrimp",
+          "imageName":"paella.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/spanish-paella-and-clams-with-pork-chorizo-and-shrimp"
+        }
+      ]
+    }
+  ]
+}

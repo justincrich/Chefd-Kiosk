@@ -1,0 +1,70 @@
+@import '~styles/_colors.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_typography.scss';
+@import '~include-media/dist/_include-media.scss';
+%linkFormatting{
+    font-size: .75rem;
+    @include media($midBP){
+        font-size: 1rem;
+
+    }
+
+}
+.engagementFooterNav{
+    box-sizing: border-box;
+    z-index: 100;
+    position:fixed;
+    width:100vw;
+    height:41px;
+    bottom:0;
+    background-color: $footerNavBackground;
+    padding: 0 13px;
+    @include media($midBP){
+        padding: 0 45px;
+
+    }
+
+    .engagementFooterNav_container{
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        height:100%;
+        justify-content: space-between;
+        align-items: center;
+       
+        
+        .engagementFooterNav_back{
+            @extend %links;
+            @extend %linkFormatting;
+            cursor: pointer;
+        }
+    
+        .engagementFooterNav_questioncount{
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%) translateY(-50%);
+            
+            
+            font-size: .6875rem;
+            @include media($midBP){
+                font-size: .75rem;
+        
+            }
+            
+        }
+    
+        .engagementFooterNav_quit{
+            @extend %links;
+            @extend %linkFormatting;
+            cursor: pointer;
+            margin-left:auto;
+            font-size: 1rem!important;
+            @include media($midBP){
+                font-size: 1rem!important;
+        
+            }
+        }
+    }
+
+}

@@ -1,0 +1,70 @@
+@import '~styles/_colors.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_typography.scss';
+@import '~include-media/dist/_include-media.scss';
+%flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.kiosk_body{
+    @extend %flex;
+    flex-direction: column;
+    width:100%;
+    overflow:hidden;
+    .kiosk_start_header{
+        max-height: 116px;
+        @include media($midBP){
+
+            max-height:176px;
+        }
+    }
+    
+    .kiosk_header_banner{
+        @extend %flex;
+       
+        box-sizing: border-box;
+        padding: 0 20px;
+        @include media($midBP){
+
+            padding:0 48px;
+        }
+        .kiosk_header_banner_logo{
+            @extend %flex;
+            border-right:2px solid white;
+            max-width:100px;
+            padding-right:20px;
+             @include media($midBP){
+                max-width:226px;
+                
+            }
+    
+            
+            
+        }
+        .kiosk_header_banner_slogan{
+            @extend %flex;
+            max-width:200px;
+            padding-left:20px;
+            @include media($midBP){
+                max-width:401px;
+            }
+    
+        }
+    
+        img{
+            width:100%;
+        }
+    }
+
+    .kiosk_contents{
+
+        @extend %flex;
+        box-sizing: border-box;
+        padding:50px 0;
+        width: 100%;
+
+    }
+}

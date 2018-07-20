@@ -1,0 +1,25 @@
+
+.header{
+    padding:8px 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: row;
+    max-width:100%;
+    top:0;
+  
+    width:100%;
+    border:1px solid hsla(0,0%,90%,.3);
+    box-shadow:0 2px 4px 0 rgba(87,71,81,.1);
+    background-color:#ffffff!important;
+    z-index: 1000;
+}
+
+.header-logo{
+    width:80px;
+}
+
+.header-logo img{
+    width:100%;
+}

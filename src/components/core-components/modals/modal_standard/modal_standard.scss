@@ -1,0 +1,121 @@
+@import '~styles/_colors.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_typography.scss';
+@import '~include-media/dist/_include-media.scss';
+%fillParent{
+    width:100%;
+    height:100%;
+}
+.modalstandard{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    width:100%;
+    height:100%;
+    .modalstandard_container{
+        position: relative;
+        
+        @extend %fillParent;
+        .modalstandard_backdrop{
+            @extend %fillParent;
+            background-color: $backdropColor;
+            position: absolute;
+            top:0;
+            left:0;
+            
+            
+    
+        }
+        .modalstandard_window{
+            box-sizing: border-box;
+            position: absolute;
+            z-index: 10;
+            max-width: 442px;
+            width:75%;
+            left:50%;
+            top:300px;
+            padding:20px;
+            max-height: 200px;
+            transform:translateX(-50%) translateY(-50%);
+            @include media($midBP){
+                top:378px;
+                max-height: 247px;
+            }
+            height:247px;
+            background-color:white;
+        }
+    }
+
+    @import '~styles/_colors.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_typography.scss';
+@import '~include-media/dist/_include-media.scss';
+%setup{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .modalstandard_window_body{
+        @extend %setup;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        .modalstandard_window_body_header{
+            @extend %h1;
+            max-width: 362px;
+            font-size: 1rem;
+            text-align: center;
+            @include media($midBP){
+
+                font-size: 1.2rem;
+            }
+
+        }
+        .modalstandard_window_body_description{
+            @extend %pageDescription;
+            text-align: center;
+            font-size: 1rem;
+            
+            @include media($midBP){
+                max-width: 305px;
+                font-size: 1.2rem;
+            }
+        }
+
+        .modalstandard_window_body_buttonbox{
+            @extend %setup;
+            flex-direction: row;
+            margin-top: 25px;
+            @include media($midBP){
+                margin-top: 50px;
+            }
+
+            .modalstandard_window_body_buttonbox_button{
+                width:120px!important;
+                @include media($midBP){
+                    width:182px!important;
+                }
+            }
+
+            #quit{
+                margin-left:30px;
+                @include media($midBP){
+                    margin-left:32px;
+                }
+            }
+
+            
+        
+
+        }
+    }
+
+
+
+}

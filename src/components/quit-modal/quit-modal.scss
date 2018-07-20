@@ -1,0 +1,70 @@
+@import '~styles/_colors.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_typography.scss';
+@import '~include-media/dist/_include-media.scss';
+%setup{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quitmodal{
+    @extend %setup;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .quitmodal_header{
+        @extend %h1;
+        max-width: 362px;
+        font-size: 1rem;
+        text-align: center;
+        @include media($midBP){
+
+            font-size: 1.2rem;
+        }
+
+    }
+    .quitmodal_description{
+        @extend %pageDescription;
+        text-align: center;
+        font-size: 1rem;
+        
+        @include media($midBP){
+            max-width: 305px;
+            font-size: 1.2rem;
+        }
+    }
+
+    .quitmodal_buttonbox{
+        @extend %setup;
+        flex-direction: row;
+        margin-top: 25px;
+        @include media($midBP){
+            margin-top: 50px;
+        }
+
+        .quitmodal_buttonbox_button{
+            width:120px!important;
+            @include media($midBP){
+                width:182px!important;
+            }
+        }
+
+        #quit{
+            margin-left:30px;
+            @include media($midBP){
+                margin-left:32px;
+            }
+        }
+
+        
+    
+
+    }
+}
+
+

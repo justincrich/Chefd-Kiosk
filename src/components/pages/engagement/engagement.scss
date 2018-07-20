@@ -1,0 +1,74 @@
+@import '~styles/_typography.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_colors.scss';
+@import '~include-media/dist/_include-media.scss';
+%flex{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+%textWidth{
+    max-width: 400px;
+    @include media($midBP){
+
+        max-width: 768px;
+    }
+}
+.engagementpage{
+    @extend %flex;
+    margin-bottom: 80px; 
+
+
+    .engagementpage_details{
+        @extend %flex;
+            max-width: 350px;
+        @include media($midBP){
+
+            max-width: 768px;
+        }
+        
+        .engagementpage_h1{
+            @extend %h1;
+            @extend %textWidth;
+            text-align: center;
+            text-transform: uppercase;
+            
+            margin: 0;
+            margin-bottom:25px;
+            max-width: 400px;
+            @include media($midBP){
+
+                max-width: 768px;
+            }
+        }
+    
+        .engagementpage_description{
+            
+            @extend %pageDescription;
+            @extend %textWidth;
+            text-align: center;
+        }
+    }
+
+    .engagementpage_questions{
+        @extend %textWidth;
+        width:100%;
+    }
+
+    .engagementpage_buttonbox{
+        @extend %flex;
+        position: relative;
+        margin-top:80px;
+        span{
+            position:absolute;
+            top:-30px;
+            @extend %warning;
+            text-transform: uppercase;
+        }
+    }
+
+
+}

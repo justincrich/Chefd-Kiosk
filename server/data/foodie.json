@@ -1,0 +1,389 @@
+{
+  "engagement": {
+    "title": "What Type of Foodie are You?",
+    "description":
+      "Are you the foodie of your friend group? See what type of foodie you are by answering these 5 questions.",
+    "type": "classification",
+    "assetId": "foodie",
+    "questions": [
+      {
+        "id": "q-1",
+        "questionText": "What’s your drink of choice?",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "Champagne",
+            "category": "foodsnob",
+            "img": {
+              "1x": "i-stock-621352004.png",
+              "2x": "i-stock-621352004@2x.png",
+              "3x": "i-stock-621352004@3x.png"
+            }
+          },
+          {
+            "id": "r-2",
+            "title": "Black Coffee",
+            "category": "foodsnob",
+            "img": {
+              "1x": "i-stock-471002060.png",
+              "2x": "i-stock-471002060@2x.png",
+              "3x": "i-stock-471002060@3x.png"
+            }
+          },
+          {
+            "id": "r-3",
+            "title": "Sparkling Water",
+            "category": "hipster",
+            "img": {
+              "1x": "i-stock-668395540.png",
+              "2x": "i-stock-668395540@2x.png",
+              "3x": "i-stock-668395540@3x.png"
+            }
+          },
+          {
+            "id": "r-4",
+            "title": "Soda",
+            "category": "hipster",
+            "img": {
+              "1x": "i-stock-645899836.png",
+              "2x": "i-stock-645899836@2x.png",
+              "3x": "i-stock-645899836@3x.png"
+            }
+          },
+          {
+            "id": "r-5",
+            "title": "Cocktail",
+            "category": "adventurous",
+            "img": {
+              "1x": "i-stock-661986692.png",
+              "2x": "i-stock-661986692@2x.png",
+              "3x": "i-stock-661986692@3x.png"
+            }
+          },
+          {
+            "id": "r-6",
+            "title": "Wine",
+            "category": "adventurous",
+            "img": {
+              "1x": "i-stock-615269202.png",
+              "2x": "i-stock-615269202@2x.png",
+              "3x": "i-stock-615269202@3x.png"
+            }
+          }
+        ]
+      },
+      {
+        "id": "q-2",
+        "questionText": "Choose your ultimate dinner guest?",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "Anthony Bourdain",
+            "category": "adventurous",
+            "img": {
+              "1x": "anthonybourdain.png"
+            }
+          },
+          {
+            "id": "r-2",
+            "title": "Queen Elizabeth II",
+            "category": "foodsnob",
+            "img": {
+              "1x": "queenelizabeth.png"
+            }
+          },
+          {
+            "id": "r-3",
+            "title": "Beyoncé",
+            "category": "hipster",
+            "img": {
+              "1x": "beyonce1.png"
+            }
+          },
+          {
+            "id": "r-4",
+            "title": "Lance Bass",
+            "category": "hipster",
+            "img": {
+              "1x": "lancebass.png"
+            }
+          },
+          {
+            "id": "r-5",
+            "title": "Greg Norman",
+            "category": "foodsnob",
+            "img": {
+              "1x": "greg-norman.png"
+            }
+          },
+          {
+            "id": "r-6",
+            "title": "Sammy Hagar",
+            "category": "adventurous",
+            "img": {
+              "1x": "sammy-hagar.png"
+            }
+          }
+        ]
+      },
+      {
+        "id": "q-3",
+        "questionText": "What’s your drink of choice?",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "Ramen",
+            "category": "hipster",
+            "img": {
+              "1x": "shr-27-2-hero-raw.png",
+              "2x": "shr-27-2-hero-raw@2x.png",
+              "3x": "shr-27-2-hero-raw@3x.png"
+            }
+          },
+          {
+            "id": "r-2",
+            "title": "Caviar",
+            "category": "foodsnob",
+            "img": {
+              "1x": "i-stock-638751560.png",
+              "2x": "i-stock-638751560@2x.png",
+              "3x": "i-stock-638751560@3x.png"
+            }
+          },
+          {
+            "id": "r-3",
+            "title": "Sushi",
+            "category": "adventurous",
+            "img": {
+              "1x": "i-stock-884623654.png",
+              "2x": "i-stock-884623654@2x.png",
+              "3x": "i-stock-884623654@3x.png"
+            }
+          },
+          {
+            "id": "r-4",
+            "title": "Pizza",
+            "category": "hipster",
+            "img": {
+              "1x": "nyt-vege-6-2-hero-raw.png",
+              "2x": "nyt-vege-6-2-hero-raw@2x.png",
+              "3x": "nyt-vege-6-2-hero-raw@3x.png"
+            }
+          },
+          {
+            "id": "r-5",
+            "title": "Chocolate Covered Almonds",
+            "category": "foodsnob",
+            "img": {
+              "1x": "adobe-stock-143769577-preview.png",
+              "2x": "adobe-stock-143769577-preview@2x.png",
+              "3x": "adobe-stock-143769577-preview@3x.png"
+            }
+          },
+          {
+            "id": "r-6",
+            "title": "Loaded Burger",
+            "category": "adventurous",
+            "img": {
+              "1x": "adobe-stock-142758041-preview.png",
+              "2x": "adobe-stock-142758041-preview@2x.png",
+              "3x": "adobe-stock-142758041-preview@3x.png"
+            }
+          }
+        ]
+      },
+      {
+        "id": "q-4",
+        "questionText": "Pick a dessert",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "Macaron",
+            "category": "foodsnob",
+            "productUrl": "https://www.chefd.com/products/pb-j-macarons",
+            "img": {
+              "1x": "DES52.8_20Hero.png"
+            }
+          },
+          {
+            "id": "r-2",
+            "title": "Crazy Rice Crispy Treats",
+            "category": "hipster",
+            "productUrl":
+              "https://www.chefd.com/products/unicorn-crispy-treats",
+            "img": {
+              "1x": "DES28.12_20Hero_ed16d892-4976-47e0-8aac-d84ed8fbc698.png"
+            }
+          },
+          {
+            "id": "r-3",
+            "title": "Tiramisu",
+            "category": "adventurous",
+            "productUrl": "https://www.chefd.com/products/individual-tiramisu",
+            "img": {
+              "1x": "DES67.4_20Hero.png"
+            }
+          },
+          {
+            "id": "r-4",
+            "title": "Donuts",
+            "category": "hipster",
+            "productUrl":
+              "https://www.chefd.com/products/glazed-rainbow-sprinkle-donuts",
+            "img": {
+              "1x": "DES27.8_20Hero_ca9cc320-bc0f-4b6d-b7d2-be0960782fa9.png"
+            }
+          },
+          {
+            "id": "r-5",
+            "title": "Crème Brûlée",
+            "category": "foodsnob",
+            "productUrl":
+              "https://www.chefd.com/products/eggnog-creme-brulee-with-candied-orange-zest",
+            "img": {
+              "1x": "DES104.4_20Hero.png"
+            }
+          },
+          {
+            "id": "r-6",
+            "title": "White Chip Lemon Bars",
+            "category": "adventurous",
+            "productUrl":
+              "https://www.chefd.com/products/white-chip-lemon-bars",
+            "img": {
+              "1x": "DES8.8_20Hero_821e738b-9897-45f9-af45-3e43c5dc2e06.png"
+            }
+          }
+        ]
+      },
+      {
+        "id": "q-5",
+        "questionText": "Where can we find you on a Sunday afternoon?",
+        "responses": [
+          {
+            "id": "r-1",
+            "title": "Sundays are for shopping",
+            "category": "foodsnob",
+            "img": {
+              "1x": "shopping.png"
+            }
+          },
+          {
+            "id": "r-2",
+            "title": "Exploring a new city",
+            "category": "adventurous",
+            "img": {
+              "1x": "explorecity.png"
+            }
+          },
+          {
+            "id": "r-3",
+            "title": "Brunch, duh",
+            "category": "hipster",
+            "img": {
+              "1x": "brunch.png"
+            }
+          },
+          {
+            "id": "r-4",
+            "title": "Reading a new book",
+            "category": "adventurous",
+            "img": {
+              "1x": "reading.png"
+            }
+          },
+          {
+            "id": "r-5",
+            "title": "Sleeping",
+            "category": "hipster",
+            "img": {
+              "1x": "sleeping.png"
+            }
+          },
+          {
+            "id": "r-6",
+            "title": "Relaxing by the Pool",
+            "category": "foodsnob",
+            "img": {
+              "1x": "poolrelaxing.png"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "results":{
+    "adventurous":{
+      "title":"You're an ... Adventurous Foodie",
+      "description":"Food is for more than just eating, food is an experience. You’re always searching for something new to sink your teeth in. You love a good, home-cooked meal with a story—rich in culture, rich in flavor, and rich in history are your three qualifiers of a good meal.",
+      "CTAphrase":"Try something new tonight with one of these adventurous meal kits!",
+      "recommendations":[
+        {
+          "title":"Korean Beef Bibimbap",
+          "imageName":"bibimbap.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/korean-beef-bibimbap"
+        },
+        {
+          "title":"Pan Fried Pork Udon",
+          "imageName":"udon.png",
+          "avaliability":"instore"
+        },
+        {
+          "title":"Fusion Tuna Flatbread",
+          "imageName":"flatbread.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/tuna-flatbread-with-korean-style-mayo-sweet-sour-pickles-and-slaw"
+        }
+      ]
+    },
+    "foodsnob":{
+      "title":"You're a ... Food Snob",
+      "description":"Food trends—what are those? You don’t eat the food-of-the-moment, you eat by your own rules. You prefer the finer things in life, never settling for anything less than premium. Champagne wishes and caviar dreams are a part of your daily life and that will never change.",
+      "CTAphrase":"Put up your pinky and enjoy these high-class meal kits designed to impress even the snobbiest foodie.",
+      "recommendations":[
+        {
+          "title":"Fusion Tuna Flatbread",
+          "imageName":"flatbread.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/tuna-flatbread-with-korean-style-mayo-sweet-sour-pickles-and-slaw"
+        },
+        {
+          "title":"Truffle Butter Sirloin Steak",
+          "imageName":"sirloin.png",
+          "avaliability":"instore"
+        },
+        {
+          "title":"Prosciutto Wrapped Sea Bass",
+          "imageName":"seabass.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/prosciutto-wrapped-sea-bass-with-mushroom-and-leek-risotto"
+        }
+      ]
+    },
+    "hipster":{
+      "title":"You're a ... Hipster Foodie",
+      "description":"You can’t be bothered with last month’s food fads, you’re already obsessing over the newest trends. You’re not scared to try crazy combos, bizarre ingredients, or insane heat—you embrace every new food trend with open arms...and an open mouth. You want your food wrapped in bacon, gluten-free, and topped with a full, perfectly sliced avocado, and that’s okay because that’s your jam.",
+      "CTAphrase":"We’ve got meals to feed your inner hipster hunger. Try one of these tonight!",
+      "recommendations":[
+        {
+          "title":"Sweet Chili Shrimp Ramen",
+          "imageName":"ramen.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/sweet-chili-shrimp-ramen"
+        },
+        {
+          "title":"Chicken & Waffles",
+          "imageName":"chickenandwaffles.png",
+          "avaliability":"instore"
+        },
+        {
+          "title":"Seared Ahi Tuna Bowl",
+          "imageName":"tunabowl.png",
+          "avaliability":"online",
+          "url":"https://www.chefd.com/products/seared-ahi-tuna-bowl-with-mochi-mugi-barley"
+        }
+      ]
+    }
+  }
+}

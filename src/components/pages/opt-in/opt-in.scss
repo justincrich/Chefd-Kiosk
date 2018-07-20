@@ -1,0 +1,75 @@
+@import '~styles/_typography.scss';
+@import '~styles/_breakpoints.scss';
+@import '~styles/_colors.scss';
+@import '~include-media/dist/_include-media.scss';
+$maxWidth:400px;
+$maxWidthTab:700px;
+.optinpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    .optinpage_header{
+        @extend %h1;
+        text-align: center;
+        margin-top:0;
+        margin-bottom:40px;
+        max-width:$maxWidth;
+        @include media($midBP){
+            margin-bottom:80px;
+            max-width:$maxWidthTab;
+        }
+        
+    }
+    .optinpage_description{
+        font-size: 1.625rem;
+        font-weight: 300;
+        text-align: center;
+        font-family: $Verlag;
+        color:$textColorMain;
+        max-width:$maxWidth;
+        @include media($midBP){
+
+            max-width:$maxWidthTab;
+        }
+
+    }
+    .optinpage_form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:30px;
+        @include media($midBP){
+            margin-top:30px;
+            flex-direction: row;
+            max-width:$maxWidthTab;
+        }
+        input{
+            margin-bottom: 20px;
+            width:287px!important;
+            height:50px!important;
+            color:$textColorMain;
+            font-size: 1.25rem;
+            @include media($midBP){
+                margin-right:20px;
+                margin-bottom: 0px;
+            }
+
+        }
+
+        .button{
+            width:287px!important;
+            @include media($midBP){
+                width:181px!important;
+            }
+        }
+    }
+    .optinpage_form_errornote{
+        margin-top:10px;
+        color:red;
+        font-size: 1rem;
+    }
+}

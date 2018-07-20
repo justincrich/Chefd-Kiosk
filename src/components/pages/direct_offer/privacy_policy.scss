@@ -1,0 +1,43 @@
+@import "~styles/_typography.scss";
+@import "~styles/_colors.scss";
+.rte:last-child {
+  margin-bottom: 0;
+}
+
+.page-template-content-section {
+  width: 80%;
+}
+
+.rte {
+  color: #788188;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  font-family: Verlag-Book;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.close_button {
+  position: fixed;
+  z-index: 1000;
+  bottom: 50px;
+  right: 50px;
+  color: $white;
+  background-color: $chefdOrange;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+$darkGray: rgb(166,166,166); // Dark Gray
+$mediumGray: rgb(218,218,218); // Medium Gray
+$white: rgb(255,255,255); // White
+$chefdOrange: #fd6721; // Chefd Orange
+$charcoal: rgb(78,78,78); // Charcoal
+$iconLightBkgMuted: #efefef; // Light Gray
+$fontInactive:#b1b4b8;
+
+//Fonts
+$textColorMain:#4E4E4E;
+$textColorMuted:#A6A6A6;
+$textColorProductName:#4E4E4E;
+$textColorLink:$chefdOrange;
+
+
+//Buttons
+$buttonFontColorDarkBkg:#ffffff;
+$buttonBodyColorLightBkg:#ffffff;
+
+//Inputs
+$inputTextBackgroundColor:#ffffff;
+$inputBorderColor:#dadada;
+$inputTextBorderColor:$inputBorderColor;
+
+//Navs
+$footerNavBackground:#dadada;
+
+//Modals
+$backdropColor:rgba(0, 0, 0, .4);
+
+
+//Bundling for inline style use (JS)
+:export{
+    darkGray: $darkGray; // Dark Gray
+    mediumGray: $mediumGray; // Medium Gray
+    white: $white; // White
+    chefdOrange: $chefdOrange; // Chefd Orange
+    charcoal: $charcoal; // Charcoal
+    iconLightBkgMuted: $iconLightBkgMuted; // Light Gray
+    buttonFontColorDarkBkg:$buttonFontColorDarkBkg;
+    buttonBodyColorLightBkg:$buttonBodyColorLightBkg;
+    inputBorderColor:$inputBorderColor;
+    inputTextBorderColor:$inputTextBorderColor;
+    fontInactive:$fontInactive;
+    footerNavBackground:$footerNavBackground;
+}

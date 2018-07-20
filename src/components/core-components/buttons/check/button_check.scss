@@ -1,0 +1,18 @@
+@import '../../../../styles/colors';
+@import '../../../../styles/typography';
+
+.button_check_contents{
+    width:32px;
+    height: 25px;
+    font-family: FontAwesome;
+    font-size: 35.8px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: $iconLightBkgMuted;
+}
+
+

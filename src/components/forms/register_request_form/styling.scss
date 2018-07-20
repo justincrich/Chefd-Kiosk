@@ -1,0 +1,23 @@
+.regreqform{
+    margin-top:110px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    max-width: 380px;
+}
+
+.regreqform .emailInput{
+    width:100%;
+}
+
+.regreqform .regreqform-submit{
+    display:inline-block;
+    width:100%;
+}
+
+.regreqform .regreqform-submit:hover,
+.regreqform .regreqform-submit:focus{
+    opacity:.6;
+}
+

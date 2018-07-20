@@ -1,0 +1,54 @@
+@import '~styles/_colors.scss';
+
+$boxDimension:15px;
+
+.input_checkbox_standard{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width:$boxDimension;
+    height:$boxDimension;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+    input{
+        position: absolute;
+        display:none;
+        cursor: pointer;
+        margin:0;
+        width:100%;
+    }
+
+    span{
+        position: absolute;
+        display: inline-block;
+        left:5.625px;
+        top:2px;
+        box-sizing: border-box;
+        width: 3.75px;
+        height: 7.5px;
+        border: solid $white;
+        border-width: 0 1px 1px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    
+    &.checked{
+        background-color:$chefdOrange;
+    }
+
+    .contents{
+        position:absolute;
+        left:$boxDimension;
+        margin-left:10px;
+
+    }
+}
+
+
+

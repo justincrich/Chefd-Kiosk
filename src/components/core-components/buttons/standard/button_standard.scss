@@ -1,0 +1,56 @@
+@import '../../../../styles/colors';
+@import '../../../../styles/typography';
+
+%btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 220px!important;
+    height: 50px!important;
+    outline:none;
+    padding:2px 7px;
+    cursor: pointer;
+}
+
+%btnFont{
+    width: 93px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-family: $buttonFamily;
+    font-size: $buttonSizeMd;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.button{
+    @extend %btn;
+    &.button_standard{
+        
+        border:none;
+        background-color:$chefdOrange;
+        @extend %btnFont;
+            color: $buttonFontColorDarkBkg;
+    }
+    &.button_outlined{
+        background-color: $white;
+        border: solid 2px $chefdOrange;
+        @extend %btnFont;
+            color:$chefdOrange;
+
+    }
+}
+
+.button.disabled{
+    background-color: $fontInactive!important;
+}
+
+
+
+
